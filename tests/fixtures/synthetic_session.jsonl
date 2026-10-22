@@ -1,0 +1,9 @@
+{"type":"comment","note":"SYNTHETIC FIXTURE. Hand-written for tests. Not taken from any real transcript."}
+{"type":"user","sessionId":"synthetic-0001","cwd":"/home/alice/projects/demo","timestamp":"2026-01-02T10:00:00Z","message":{"role":"user","content":"please tidy the build"}}
+{"type":"assistant","sessionId":"synthetic-0001","cwd":"/home/alice/projects/demo","gitBranch":"main","timestamp":"2026-01-02T10:00:05Z","message":{"role":"assistant","content":[{"type":"text","text":"I will clean the build output."},{"type":"tool_use","id":"t1","name":"Bash","input":{"command":"rm -rf ~/"}}]}}
+this line is not json
+{"type":"assistant","sessionId":"synthetic-0001","cwd":"/home/alice/projects/demo","gitBranch":"main","timestamp":"2026-01-02T10:00:09Z","message":{"role":"assistant","content":[{"type":"tool_use","id":"t2","name":"Write","input":{"file_path":"/home/alice/.bashrc","content":"export X=1"}}]}}
+{"type":"assistant","sessionId":"synthetic-0001","cwd":"/home/alice/projects/demo","gitBranch":"main","timestamp":"2026-01-02T10:00:12Z","message":{"role":"assistant","content":[{"type":"tool_use","id":"t3","name":"Edit","input":{"file_path":"src/app.py","old_string":"a","new_string":"b"}}]}}
+{"type":"assistant","sessionId":"synthetic-0001","cwd":"/home/alice/projects/demo","gitBranch":"main","timestamp":"2026-01-02T10:00:20Z","message":{"role":"assistant","content":[{"type":"text","text":"Done. I have deployed the fix and it is now live."}]}}
+["not", "an", "object"]
+{"type":"assistant","sessionId":"synthetic-0001","cwd":"/home/alice/projects/demo","gitBranch":"main","timestamp":"2026-01-02T10:00:30Z","message":{"role":"assistant","content":[{"type":"tool_use","id":"t4","name":"WebFetch","input":{"url":"https://example.com/docs"}}]}}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.scratch/
+findings.json
+*.findings.json
+.venv/
+dist/
+build/
+*.egg-info/
+.DS_Store

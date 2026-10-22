@@ -1,0 +1,8 @@
+{
+  "include_prefixes": ["-home-alice-projects-"],
+  "include_exact": ["-home-alice-scratch"],
+  "exclude_dir_pattern": "acme-corp|client-x",
+  "exclude_content_pattern": "acme-corp|client-x",
+  "redact_terms": ["acme-corp"],
+  "strict_sessions": false
+}

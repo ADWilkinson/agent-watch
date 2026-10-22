@@ -1,0 +1,13 @@
+[project]
+name = "agent-watch"
+version = "0.1.0"
+description = "A small rule-based monitor that flags risky actions in Claude Code transcripts"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
